@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "noanimationx",
+  "version": "${version}",
+  "name": "NoAnimationX",
+  "description": "Disables selected first-person item use and hand animations.",
+  "authors": [
+    "NoAnimationX Team"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.noanimationx.NoAnimationXClient"
+    ]
+  },
+  "mixins": [
+    "noanimationx.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}
